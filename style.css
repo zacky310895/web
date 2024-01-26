@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.hero{
+  width: 100%;
+  min-height: 200vh;
+  background-image: url(img/background.png);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+nav{
+  padding: 10px 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.logo{
+  width: 140px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+  margin-top: 0%;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+.login-btn{
+  text-decoration: none;
+  color:#ffffff;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.content{
+  padding: 70px 0;
+  margin: 0 auto;
+  margin-top: 13%;
+  max-width: 2000px;
+  border-radius: 40px;
+  width: 500px ;
+  text-align: center;
+  background-color: #0000008e ;
+}
+.content h1{
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+}
+.content h2{
+  font-size: 30px;
+  color: rgb(253, 253, 253);
+}
+
+.start-btn{
+  padding: 10px 30px;
+  margin-top: 5%;
+  max-width: 1000px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #000000, #000000);
+}
+.hero1{
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.T1{
+  padding: 70px 0;
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 2000px;
+  border-radius: 50px;
+  width: 600px ;
+  text-align: center;
+}
+.lihat-btn{
+  padding: 10px 30px;
+  margin-top: 5%;
+  max-width: 1000px;
+  border-radius: 40px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.strip{
+  padding: 10px 20%;
+  margin-top: 12%;
+  margin: 400px;
+  border-radius: 0%;
+  display: inline-block;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.T2{
+  padding: 70px 40px;
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 2000px;
+  width: 600px ;
+  text-align: center;
+}
+.T2 .rata3{
+  text-align: left;
+  font-size: 22px;
+}
+.T2 .rata4{
+  text-align: left;
+  font-size: 22px;
+}
+
+.order-btn{
+  padding: 10px 30px;
+  margin-top: 0%;
+  max-width: 1000px;
+  border-radius: 40px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.img1{
+  position: relative;
+  right: 70%;
+}
+.T3{
+  padding: 70px 0;
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 2000px;
+  width: 600px ;
+  text-align: center;
+}
+.T3 .rata1{
+  text-align: left;
+  font-size: 22px;
+}
+.T3 .rata2{
+  text-align: left;
+  font-size: 22px;
+}
+.img2{
+    position: relative;
+    left: 70%;
+}
+.order-btn{
+  padding: 10px 30px;
+  margin-top: 0%;
+  max-width: 1000px;
+  border-radius: 40px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.ke1{
+  padding: 10px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: right;
+}
+.p1{
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-align: right;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.p2{
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-align: right;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.p3{
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-align: right;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 20px;
+  background-image: linear-gradient(45deg, #ff7b00, #ff6a00);
+}
+.T5 .ke2{
+  padding: 10px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: right;
+}
+.Footer{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #000000;
+  color: #ffffff;
+}
